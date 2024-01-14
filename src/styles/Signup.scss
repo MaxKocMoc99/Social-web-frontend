@@ -1,0 +1,77 @@
+.modal{
+      background-color: white;
+      width: 400px;
+      margin: 0 auto;
+      position: relative;
+      top: 100px;
+      height: 500px;
+      border-radius: 3px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 0.5px solid  rgb(172, 172, 172);
+      input{
+        border: 1px solid black;
+      }
+    .modal__title{
+    padding-top: 20px;
+    font-size: 30px;
+    }
+    .modal__minititle{
+        margin-top: 10px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.614);
+    }
+    .modal__input{
+     margin-top: 15px;
+     width: 80%;
+     height: 30px;
+     outline: none;
+     color: rgba(0, 0, 0, 0.614);
+    }
+    .modal__input-red{
+      margin-top: 15px;
+     width: 80%;
+     height: 30px;
+     outline: none;
+     color: rgba(0, 0, 0, 0.614);
+     border: 1px solid rgb(206, 11, 11);
+    }
+    .modal__input-red:enabled{
+     padding-left: 10px;
+    }
+    .modal__input:enabled{
+     padding-left: 10px;
+    }
+    .modal__date{
+        font-size: 16px;
+    color: rgba(0, 0, 0, 0.614);
+    align-self: start;
+    padding-left: 40px;
+    margin-top: 10px;
+    }
+    .modal__inputs-date{
+       height: 30px;
+       width: 80%;
+       display: flex;
+       margin-top: 10px;
+       justify-content: space-between;
+    }
+    .modal__input-date{
+      width: 26.6%;
+      outline: none;
+    }
+    .modal__button{
+        width: 80%;
+     height: 30px;
+     background-color: rgb(12, 172, 12);
+     border: 1px solid rgb(12, 172, 12);
+     border-radius: 3px;
+     color: white;
+     margin-top: 20px;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+}
